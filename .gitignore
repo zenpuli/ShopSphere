@@ -8,8 +8,18 @@ target/
 *.class
 *.jar
 *.war
+*.nar
 *.ear
 *.log
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
 
 # Node & Frontend build artifacts
 node_modules/
@@ -33,4 +43,6 @@ dist-ssr/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Local-only configuration
 backend/src/main/resources/application-local.properties
