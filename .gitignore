@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Maven & Java build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Node & Frontend build artifacts
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDE and Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+backend/src/main/resources/application-local.properties
